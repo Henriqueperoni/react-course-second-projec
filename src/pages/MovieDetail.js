@@ -62,6 +62,12 @@ const HeadLine = styled.div`
     left: 50%;
     transform: translate(-50%, -10%);
   }
+  @media (max-width: 1300px) {
+    h2 {
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
   img {
     width: 100%;
     height: 70vh;
@@ -74,7 +80,7 @@ const Awards = styled.div`
   margin: 5rem 10rem;
   align-items: center;
   justify-content: space-around;
-  @media (max-width: 1500px) {
+  @media (max-width: 1300px) {
     display: block;
     margin: 2rem 2rem;
   }
